@@ -1,7 +1,7 @@
 package helpers;
 
-import model.LoginUser;
-import model.RegisterUser;
+import models.LoginUser;
+import models.RegisterUser;
 
 public class UserGenerator {
     final static String DEFAULT_EMAIL = "stdr8@test.ru";

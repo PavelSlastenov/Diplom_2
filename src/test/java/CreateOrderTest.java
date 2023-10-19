@@ -6,8 +6,8 @@ import io.restassured.response.ValidatableResponse;
 import junitparams.JUnitParamsRunner;
 import junitparams.Parameters;
 import junitparams.naming.TestCaseName;
-import model.CreateOrder;
-import model.RegisterUser;
+import models.CreateOrder;
+import models.RegisterUser;
 import org.junit.*;
 import org.junit.runner.RunWith;
 

@@ -2,8 +2,8 @@ package client;
 
 import io.qameta.allure.Step;
 import io.restassured.response.ValidatableResponse;
-import model.LoginUser;
-import model.RegisterUser;
+import models.LoginUser;
+import models.RegisterUser;
 
 import static io.restassured.RestAssured.given;
 

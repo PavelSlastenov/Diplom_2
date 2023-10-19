@@ -1,6 +1,6 @@
 package helpers;
 
-import model.CreateOrder;
+import models.CreateOrder;
 
 import java.util.List;
 

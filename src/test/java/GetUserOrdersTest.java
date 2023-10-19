@@ -5,8 +5,8 @@ import helpers.UserGenerator;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.ValidatableResponse;
 import junitparams.JUnitParamsRunner;
-import model.CreateOrder;
-import model.RegisterUser;
+import models.CreateOrder;
+import models.RegisterUser;
 import org.junit.*;
 import org.junit.runner.RunWith;
 
