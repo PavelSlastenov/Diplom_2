@@ -3,14 +3,16 @@ package helpers;
 import models.LoginUser;
 import models.RegisterUser;
 
+import static helpers.DataGenerator.randomString;
+
 public class UserGenerator {
-    final static String DEFAULT_EMAIL = "stdr8@test.ru";
-    final static String DEFAULT_PASSWORD = "123";
-    final static String DEFAULT_NAME = "Seva";
-    final static String FAKE_EMAIL = "dfjzgzn4564dnbxfgb@ffg435gb.r7u6tr";
-    final static String NEW_EMAIL = "jfdjxivnjdf"+DEFAULT_EMAIL;
-    final static String NEW_PASSWORD = "12345";
-    final static String NEW_NAME = "aveS";
+    final static String DEFAULT_EMAIL = randomString(8) + "@" + randomString(4) + ".ru";
+    final static String DEFAULT_PASSWORD = randomString(10);
+    final static String DEFAULT_NAME = randomString(6);
+    final static String FAKE_EMAIL = randomString(8) + "@" + randomString(4) + "." + randomString(3);
+    final static String NEW_EMAIL = randomString(8) + DEFAULT_EMAIL;
+    final static String NEW_PASSWORD = randomString(8);
+    final static String NEW_NAME = randomString(6);
 
     public enum UserField {
         EMAIL,

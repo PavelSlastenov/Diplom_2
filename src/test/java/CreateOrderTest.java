@@ -38,7 +38,7 @@ public class CreateOrderTest {
 
     @Test
     @Parameters(method = "createOrderParameters")
-    @TestCaseName("Создание заказа с авторизацией ({0}) и непустым ({1}) корректным ({2}) списком ингредиентов")
+    @TestCaseName("Создание заказа с разными параметрами")
     public void createOrder(boolean isAuth, boolean haveIngredients, boolean isHashCorrect, int status) {
         String token2 = "abc";
         if (isAuth) {token2 = token;}
